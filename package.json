@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-file-upload",
+  "version": "1.0.0",
+  "description": "Nodejs file upload",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "mahdi amari",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "rembg-node": "^2.0.2",
+    "sharp": "^0.30.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
