@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm install && npm rebuild sharp
+RUN npm install -f && npm rebuild sharp
 COPY . .
 
 EXPOSE 3000
