@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
+ENV ORT_USE_CUDA=0
+
 COPY package*.json ./
 RUN npm install -f
 RUN npm rebuild sharp
